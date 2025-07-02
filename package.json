@@ -4,5 +4,8 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^5.0.2"
+  }
 }
