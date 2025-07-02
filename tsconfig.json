@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ui/*": ["packages/ui/*"],
+      "@config/*": ["packages/config/*"],
+      "@state/*": ["packages/state/*"],
+      "@services/*": ["packages/services/*"],
+      "@utils/*": ["packages/utils/*"]
+    }
+  }
+}

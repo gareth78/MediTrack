@@ -1,0 +1,8 @@
+{
+  "name": "meditrack-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
