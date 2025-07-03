@@ -1,6 +1,6 @@
 import React from 'react';
 import { Provider as PaperProvider } from 'react-native-paper';
-import { AuthProvider } from '@services/auth';
+import { AuthProvider } from '@services/auth';y
 import Dashboard from './screens/Dashboard';
 import Login from './screens/Login';
 import { useAuth } from '@services/auth';
